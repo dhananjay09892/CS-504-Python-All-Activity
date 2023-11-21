@@ -1,0 +1,53 @@
+CS-111 Intro Structured Programming
+Activity 5 – Iteration
+
+
+1. Write a program to calculate the sum of all odd numbers between 10 and 100 (use range function) 
+
+Note: range() function in Python has the following syntax; range(start, stop, step). 
+	If you need the numbers from 0 to another number, you just specify the ending point(not included), so range(6) gives you 0,1,2,3,4,5. 
+	If you need a series of numbers within a range, you specify the starting and the ending point(not included), so range(2,6) gives you 2,3,4,5. 
+	If you need the numbers within a range to increment according to a pattern instead of one-by-one, you specify the increment, so range(2,16,3) gives you 2,5,8,11,14. 
+	You can use a for loop to go through each number and print them. 
+
+Ex: 	for i in range(2,16,3) : 
+     	    print(i) 
+
+	Create a variable to show the sum of the numbers. 
+	Construct a loop that iterates through all the numbers in the specified range. 
+	Check the condition for each number inside the loop. 
+	Add up the numbers. 
+
+
+
+2. Convert the following while loop into a for loop using the range function. 
+
+num = 6
+while num <= 20 :
+print(num * 5)
+num = num + 2
+3. A microorganism divides itself into two every 4 hours. Write a loop code to calculate the final number of microorganisms in 24 hours. 
+
+
+
+4. While running on the treadmill at the gym, you burn 5.2 calories per minute. Construct a loop to print out the number of calories burned after each 6 minutes in an hour. 5. Write a Python program which iterates through the integers from 1 to 100. 
+
+	For multiples of three print "Fizz" instead of the number. 
+	For the multiples of five print "Buzz" instead of the number.
+	For numbers which are multiples of both three and five print "FizzBuzz".
+	Use continue statements to avoid printing both numbers and the words. 
+6. Write a loop that calculates the total of the following series of numbers (fractions with different numerators and denominators): 
+
+2/50+4/48+6/46+ …+50/2
+
+
+
+7. Create the code for a guessing game.
+
+	Import the random module to use random.randint() method which gives us a random integer.
+	Have the user input for low and high limits for the random number. The syntax to specify a range for the random.randint() method is random.randint(x, y)
+	Let the user know that they have only 10 chances to guess correctly!
+	Create a while loop to get the guesses from the user and keep track of the number of guesses.
+	Put a conditional statement to check whether the guess is right. Print out a message if it is and in how many tries.
+	Add more conditional statements to inform the user whether his/her guess is higher or lower than the random number it the guess is not right.
+	If the user exceeds 10 chances, inform them about the situation, give the correct answer, and wish them good luck next time. 

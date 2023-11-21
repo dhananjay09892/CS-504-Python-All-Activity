@@ -1,0 +1,1 @@
+# 4. While running on the treadmill at the gym, you burn 5.2 calories per minute. Construct a loop to print out the number of calories burned after each 6 minutes in an hour. 

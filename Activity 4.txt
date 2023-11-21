@@ -1,0 +1,37 @@
+1.	Write a Python function to find the largest of the three numbers entered as the function parameters.
+
+
+
+2.	Write a function to convert temperatures from Fahrenheit to Celsius and vice versa.
+
+•	Ask the user for input in either Fahrenheit or Celsius with a message prompting the user to enter ‘C’ for Celsius or ‘F’ for Fahrenheit first.
+•	Get the source temperature from the user and convert the temperature to the other form using the following formulas.
+
+C = (F − 32) × 5/9		F = (C × 9/5) + 32
+
+•	Print out the result with a message.
+
+‘The temperature in Fahrenheit is 72 degrees.’
+
+
+
+3.	Write a function code for a user-made calculator to do 4 basic operations with 2 numbers from the user.
+
+•	Create 4 functions for 4 basic operations. Each function should have 2 arguments when created.
+•	Create 3 input functions to get the first number, the second number, and the desired type of operation from the user (eg. + for Addition, - for subtraction etc.)
+•	Create 4 conditional statements for each operation and run the appropriate function for that operation.
+
+
+
+
+4.	Write a program to calculate your Christmas road trip cost and print the output. 
+
+•	Get user input for the number of nights, the flight destination, and total days for the rental car. 
+•	Create 3 functions to calculate hotel cost, flight cost, and rental car cost. Use return statements in your functions. 
+    o	For the hotel price function, use $150 per night (return the result)
+    o	Include 4 destinations for the flight and different prices for each (ex. $150 for Raleigh, $200 for Miami, $250 for Austin, $400 for San Diego)
+    o	Calculate the car rental price (ex. use $50 per day) 
+        	Make a discount of $50 if the rental period is 7 days or more.
+        	Make a discount of $30 if the rental period is 3 days or more.
+        	Customers cannot get both discounts.
+•	Create 4 print functions with the total price of hotel, flight, rental and the grand total.
